@@ -1,12 +1,9 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
-  purge: [],
   theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
+    extend: {
+      colors: {
+        "regal-blue": "#243c5a"
+      }
+    }
+  }
+};
