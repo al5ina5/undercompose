@@ -1,7 +1,6 @@
 import React from "react";
 
 import { storiesOf } from "@storybook/react";
-import { text } from "@storybook/addon-knobs";
 
 import Card from ".";
 
@@ -17,4 +16,14 @@ storiesOf("Card", module).add("Info", () => (
 
 storiesOf("Card", module).add("Confirm", () => (
     <Card variant={"confirm"} />
+))
+
+storiesOf("Card", module).add("Announcement", () => (
+    <Card variant={"announcement"} />
+))
+storiesOf("Card", module).add("Dashboard", () => (
+    <Card variant={"dashboard"} />
+))
+storiesOf("Card", module).add("Ban", () => (
+    <Card variant={"ban"} />
 ))
