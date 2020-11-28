@@ -11,3 +11,10 @@ storiesOf("Card", module).add("Primary", () => (
 storiesOf("Card", module).add("Secondary", () => (
   <Card variant={"secondary"} />
 ))
+storiesOf("Card", module).add("Info", () => (
+    <Card variant={"info"} />
+))
+
+storiesOf("Card", module).add("Confirm", () => (
+    <Card variant={"confirm"} />
+))
