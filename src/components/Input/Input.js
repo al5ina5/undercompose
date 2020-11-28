@@ -2,7 +2,7 @@ import React from 'react'
 import './Input.css'
 
 const classNames = {
-    container:"lg:max-w-sm py-10 px-10",
+    container:"lg:max-w-sm ",
     primary:{
         label:"block text-gray-700 text-sm font-bold mb-2",
         input:"bg-white focus:outline-none border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
