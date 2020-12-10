@@ -41,7 +41,9 @@ const Shadow = () => {
             </label>
             <input
                 className="shadow-md border-2 border-gray-100 border-opacity-0.5 appearance-none rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none " type="text" placeholder="Username" />
+                
         </div>
+
     )
 }
 
