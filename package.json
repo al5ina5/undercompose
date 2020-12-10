@@ -1,58 +1,54 @@
 {
-  "name": "tailwind-storybook",
-  "version": "0.3.0",
-  "description": "Starter for Tailwind CSS and Storybook.",
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
-  },
-  "scripts": {
-    "start": "start-storybook -p 3003 -s public",
-    "build": "build-storybook -s public",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 3003 -s public",
-    "build-storybook": "build-storybook -s public",
-    "deploy-storybook": "storybook-to-ghpages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/audunru/tailwind-storybook"
-  },
-  "keywords": [
-    "tailwind",
-    "storybook",
-    "create-react-app"
-  ],
-  "author": "Audun Rundberg",
-  "license": "MIT",
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "tailwind-storybook",
+    "version": "0.3.0",
+    "description": "Starter for Tailwind CSS and Storybook.",
+    "dependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-scripts": "3.1.1"
+    },
+    "scripts": {
+        "start": "start-storybook -c .storybook -o build",
+        "build": "build-storybook -c .storybook -o build",
+        "eject": "react-scripts eject"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/audunru/tailwind-storybook"
+    },
+    "keywords": [
+        "tailwind",
+        "storybook",
+        "create-react-app"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@craco/craco": "^5.3.0",
-    "@storybook/addon-a11y": "^5.1.11",
-    "@storybook/addon-actions": "^5.1.11",
-    "@storybook/addon-knobs": "^5.1.11",
-    "@storybook/addons": "^5.1.11",
-    "@storybook/react": "^5.1.11",
-    "@storybook/storybook-deployer": "^2.8.1",
-    "classnames": "^2.2.6",
-    "postcss-import": "^12.0.1",
-    "storybook-react-to-static-markup": "^0.1.1",
-    "tailwindcss": "^1.1.2"
-  }
+    "author": "Audun Rundberg",
+    "license": "MIT",
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@craco/craco": "^5.3.0",
+        "@storybook/addon-a11y": "^5.1.11",
+        "@storybook/addon-actions": "^5.1.11",
+        "@storybook/addon-knobs": "^5.1.11",
+        "@storybook/addons": "^5.1.11",
+        "@storybook/react": "^5.1.11",
+        "@storybook/storybook-deployer": "^2.8.1",
+        "classnames": "^2.2.6",
+        "postcss-import": "^12.0.1",
+        "storybook-react-to-static-markup": "^0.1.1",
+        "tailwindcss": "^1.1.2"
+    }
 }
